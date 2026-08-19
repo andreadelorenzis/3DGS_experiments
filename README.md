@@ -33,7 +33,7 @@ This script turns static 3DGS scenes into fully interactive rigid bodies. It aut
 </p>
 
 ### Laser Cutter (`laser_cutter.py`)
-An interactive, mouse-driven laser cutting tool. By clicking and dragging the middle mouse button across the object, a ray is cast into the scene that physically disables and cuts away Gaussians, allowing slicing of the 3D scan in real-time.
+An interactive, mouse-driven laser cutting tool, combined with the MPM physics simulation. By clicking and dragging the middle mouse button across the object, a ray is cast into the scene that physically disables and cuts away Gaussians, allowing slicing of the 3D scan in real-time.
 <p align="center">
   <video src="https://github.com/user-attachments/assets/078a1e29-5a66-4fdb-837e-fe58ab609930" autoplay loop muted playsinline width="400"></video>
 </p>
