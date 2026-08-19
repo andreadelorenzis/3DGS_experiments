@@ -12,7 +12,7 @@ You can download the `.ply` models used in these demos from this [Google Drive f
 The baseline photorealistic viewer. Use this to examine your `.ply` scans in pristine, high-resolution quality with a free-look camera before processing them through the physics engines.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b96b2b1c-9fa9-4fbe-894b-a9828af40cbc" alt="ply viewer" width="400"/>
+  <video src="https://github.com/user-attachments/assets/b96b2b1c-9fa9-4fbe-894b-a9828af40cbc" autoplay loop muted playsinline width="600"></video>
 </p>
 
 
