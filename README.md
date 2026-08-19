@@ -21,7 +21,7 @@ Utilizes a CUDA-accelerated MPM (Material Point Method) solver to simulate compl
 </p>
 
 ### Dynamic Relighting (`relighting.py`)
-An editor focused on visual fidelity and scene lighting. This script allows manipulating point lights and ambient lighting, simulating real-time specular highlights and shadows on the Gaussian splats.
+An editor focused on scene lighting. This script allows manipulating directional lights and ambient lighting, simulating real-time specular highlights on the Gaussian splats.
 <p align="center">
   <video src="https://github.com/user-attachments/assets/7f872768-2554-4e0c-9183-9db7bd58d1b0" autoplay loop muted playsinline width="400"></video>
 </p>
