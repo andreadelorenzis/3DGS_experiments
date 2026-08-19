@@ -45,7 +45,7 @@ A sandbox environment for manipulating the raw properties of the Gaussian splats
 </p>
 
 ### Mesh and Voxel Converters (`ply_to_mesh.py`, `ply_to_vox.py`)
-Utility scripts used by the physics engines to downsample the massive 3DGS point clouds into manageable proxy meshes (via Alpha Shapes/Convex Hulls) or Voxel grids for efficient collision detection.
+These scripts generate a mesh (.obj) or voxelized (.vox) version of the 3DGS, allowing them to be imported in standard gaming engines. 
 
 <p align="center">
   <img src="resources/images/mesh.png" alt="Mesh Converter" width="400"/>
