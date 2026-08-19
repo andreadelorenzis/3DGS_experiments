@@ -59,7 +59,7 @@ Follow these steps to set up a Python environment and start running the interact
 
 ### 1. Download the models
 
-The `.ply` models used in these demos can be downloaded from this [Google Drive folder](https://drive.google.com/drive/folders/15RpXtqiyZotGp-s0-QJX64ord3uitcaR?usp=sharing).
+The `.ply` models used in these demos can be downloaded from this [Google Drive folder](https://drive.google.com/drive/folders/15RpXtqiyZotGp-s0-QJX64ord3uitcaR?usp=sharing), and should be put in a `models/` folder in the root of the project.
 
 ### 2. Create a Virtual Environment
 It is highly recommended to use a Python virtual environment to manage dependencies locally. From the root directory of this project, run:
