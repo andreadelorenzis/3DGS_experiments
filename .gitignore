@@ -1,0 +1,39 @@
+# Environments
+venv/
+venv311/
+env/
+.env
+
+# Models and Heavy Data
+*.ply
+*.obj
+*.fbx
+*.bin
+models/
+
+# Render Outputs and Results
+results/
+screenshots/
+frames_video/
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+test_*.png
+hit_*.png
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.pkl
+.taichi/
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
