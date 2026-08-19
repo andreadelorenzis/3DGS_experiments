@@ -2,39 +2,59 @@
 
 This repository contains a collection of interactive scripts and physics simulations built on top of 3D Gaussian Splatting (3DGS). By combining PyTorch-based rasterization with Taichi-based physics engines (like Rigid Body and MPM solvers), these demos allow real-time deformation, fracture, cutting, and relighting of photorealistic 3DGS scans.
 
+## Models Download
+
+You can download the `.ply` models used in these demos from this [Google Drive folder](https://drive.google.com/drive/folders/15RpXtqiyZotGp-s0-QJX64ord3uitcaR?usp=sharing).
+
 ## Demos & Scripts
 
 ### Standard PLY Viewer (`ply_viewer.py`)
 The baseline photorealistic viewer. Use this to examine your `.ply` scans in pristine, high-resolution quality with a free-look camera before processing them through the physics engines.
-![PLY Viewer Demo](results/gif/ply_viewer.gif)
+
+<p align="center">
+  <img src="resources/gif/ply_viewer.gif" alt="ply viewer" width="400"/>
+</p>
+
 
 ### Material Point Method (Soft Body) Simulator (`physgaussian_mpm_cuda_gui_materials.py`)
 Utilizes a CUDA-accelerated MPM (Material Point Method) solver to simulate complex elastoplastic materials. Turn your 3D scan into jelly, snow, or soft rubber that squishes, bounces, and tears dynamically.
-![MPM Soft Body Demo](results/gif/mpm_shoe.gif)
-![MPM Soft Body Demo](results/gif/mpm_pillows.gif)
-![MPM Soft Body Demo](results/gif/mpm_ficus.gif)
+<p align="center">
+  <img src="resources/gif/mpm_shoe.gif" alt="MPM Soft Body Demo" width="400"/>
+  <img src="resources/gif/mpm_pillows.gif" alt="MPM Soft Body Demo" width="400"/>
+  <img src="resources/gif/mpm_ficus.gif" alt="MPM Soft Body Demo" width="400"/>
+</p>
 
 ### Dynamic Relighting (`dynamic_relighting_02_editor.py`)
 An editor focused on visual fidelity and scene lighting. This script allows you to manipulate point lights and ambient lighting, simulating real-time specular highlights and shadows on the Gaussian splats.
-![Dynamic Relighting Demo](results/gif/relighting.gif)
+<p align="center">
+  <img src="resources/gif/relighting.gif" alt="Dynamic Relighting Demo" width="400"/>
+</p>
 
 ### Rigid Body Physics Simulator (`rigid_body_3dgs.py`)
 This script turns static 3DGS scenes into fully interactive rigid bodies. It automatically generates a collision proxy mesh (convex hull) and drops the object into a real-time physics environment, reacting to gravity, collisions, and the floor.
-![Rigid Body Demo](results/gif/rigid_body.gif)
+<p align="center">
+  <img src="resources/gif/rigid_body.gif" alt="Rigid Body Demo" width="400"/>
+</p>
 
 ### Laser Cutter (`physgaussian_laser_cutter.py`)
 An interactive, mouse-driven laser cutting tool. By clicking and dragging the middle mouse button across the object, you cast a ray into the scene that physically disables and cuts away Gaussians, allowing you to slice the 3D scan in real-time.
-![Laser Cutter Demo](results/gif/laser_cutter.gif)
+<p align="center">
+  <img src="resources/gif/laser_cutter.gif" alt="Laser Cutter Demo" width="400"/>
+</p>
 
 ### Effects (`gaussian_effects_editor.py`)
 A sandbox environment for manipulating the raw properties of the Gaussian splats (scales, rotations, spherical harmonics) to achieve various visual effects and distortions natively on the scan.
-![Gaussian Effects Demo](results/gif/effects.gif)
+<p align="center">
+  <img src="resources/gif/effects.gif" alt="Gaussian Effects Demo" width="400"/>
+</p>
 
 ### Mesh and Voxel Converters (`ply_to_mesh.py`, `ply_to_vox.py`)
 Utility scripts used by the physics engines to downsample the massive 3DGS point clouds into manageable proxy meshes (via Alpha Shapes/Convex Hulls) or Voxel grids for efficient collision detection.
 
-![Mesh Converter](results/images/mesh.png)
-![Mesh Converter](results/images/vox.png)
+<p align="center">
+  <img src="resources/images/mesh.png" alt="Mesh Converter" width="400"/>
+  <img src="resources/images/vox.png" alt="Mesh Converter" width="400"/>
+</p>
 
 
 ## Setup Guide

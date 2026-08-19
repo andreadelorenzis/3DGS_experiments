@@ -20,6 +20,10 @@ frames_video/
 *.jpeg
 *.mp4
 *.gif
+!resources/**/*.png
+!resources/**/*.gif
+!resources/**/*.jpg
+!resources/**/*.jpeg
 test_*.png
 hit_*.png
 
