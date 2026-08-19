@@ -2,10 +2,6 @@
 
 This repository contains a collection of interactive scripts and physics simulations built on top of 3D Gaussian Splatting (3DGS). By combining PyTorch-based rasterization with Taichi-based physics engines (like Rigid Body and MPM solvers), these demos allow real-time deformation, fracture, cutting, and relighting of photorealistic 3DGS scans.
 
-## Models Download
-
-You can download the `.ply` models used in these demos from this [Google Drive folder](https://drive.google.com/drive/folders/15RpXtqiyZotGp-s0-QJX64ord3uitcaR?usp=sharing).
-
 ## Demos & Scripts
 
 ### Standard PLY Viewer (`ply_viewer.py`)
@@ -61,13 +57,17 @@ Utility scripts used by the physics engines to downsample the massive 3DGS point
 
 Follow these steps to set up your Python environment and start running the interactive scripts:
 
-### 1. Create a Virtual Environment
+### 1. Download the models
+
+You can download the `.ply` models used in these demos from this [Google Drive folder](https://drive.google.com/drive/folders/15RpXtqiyZotGp-s0-QJX64ord3uitcaR?usp=sharing).
+
+### 2. Create a Virtual Environment
 It is highly recommended to use a Python virtual environment to manage dependencies locally. From the root directory of this project, run:
 ```bash
 python -m venv venv
 ```
 
-### 2. Activate the Environment
+### 3. Activate the Environment
 You must activate the environment every time before installing packages or running the simulations.
 
 - **Windows:**
@@ -79,13 +79,13 @@ You must activate the environment every time before installing packages or runni
   source venv/bin/activate
   ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 With your virtual environment active, install all required packages (including PyTorch, Taichi, and `diff-gaussian-rasterization`) using the provided `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Running the Scripts
+### 5. Running the Scripts
 Once everything is installed, you can execute any individual demo script directly via Python. Ensure your environment is active, then run:
 ```bash
 # Example: Run the rigid body physics demo
