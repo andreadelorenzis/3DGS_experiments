@@ -19,36 +19,33 @@ The baseline photorealistic viewer. Use this to examine your `.ply` scans in pri
 ### Material Point Method (Soft Body) Simulator (`physgaussian_mpm_cuda_gui_materials.py`)
 Utilizes a CUDA-accelerated MPM (Material Point Method) solver to simulate complex elastoplastic materials. Turn your 3D scan into jelly, snow, or soft rubber that squishes, bounces, and tears dynamically.
 <p align="center">
-  <img src="resources/gif/mpm_shoe.gif" alt="MPM Soft Body D
-
-
-emo" width="400"/>
-  <img src="resources/gif/mpm_pillows.gif" alt="MPM Soft Body Demo" width="400"/>
-  <img src="resources/gif/mpm_ficus.gif" alt="MPM Soft Body Demo" width="400"/>
+  <video src="https://github.com/user-attachments/assets/39331002-f64b-4e4b-8c7d-ae585cb1b33a" autoplay loop muted playsinline width="400"></video>
+    <video src="https://github.com/user-attachments/assets/d260d162-682d-4796-aa9d-e25c85fa73cc" autoplay loop muted playsinline width="400"></video>
+    <video src="https://github.com/user-attachments/assets/3dd06c97-cc32-48a4-8210-34811d818588" autoplay loop muted playsinline width="400"></video>
 </p>
 
 ### Dynamic Relighting (`dynamic_relighting_02_editor.py`)
 An editor focused on visual fidelity and scene lighting. This script allows you to manipulate point lights and ambient lighting, simulating real-time specular highlights and shadows on the Gaussian splats.
 <p align="center">
-  <img src="resources/gif/relighting.gif" alt="Dynamic Relighting Demo" width="400"/>
+  <video src="https://github.com/user-attachments/assets/7f872768-2554-4e0c-9183-9db7bd58d1b0" autoplay loop muted playsinline width="400"></video>
 </p>
 
 ### Rigid Body Physics Simulator (`rigid_body_3dgs.py`)
 This script turns static 3DGS scenes into fully interactive rigid bodies. It automatically generates a collision proxy mesh (convex hull) and drops the object into a real-time physics environment, reacting to gravity, collisions, and the floor.
 <p align="center">
-  <img src="resources/gif/rigid_body.gif" alt="Rigid Body Demo" width="400"/>
+  <video src="https://github.com/user-attachments/assets/2e4971b7-2227-4b96-a6eb-fc408c918dcc" autoplay loop muted playsinline width="400"></video>
 </p>
 
 ### Laser Cutter (`physgaussian_laser_cutter.py`)
 An interactive, mouse-driven laser cutting tool. By clicking and dragging the middle mouse button across the object, you cast a ray into the scene that physically disables and cuts away Gaussians, allowing you to slice the 3D scan in real-time.
 <p align="center">
-  <img src="resources/gif/laser_cutter.gif" alt="Laser Cutter Demo" width="400"/>
+  <video src="https://github.com/user-attachments/assets/078a1e29-5a66-4fdb-837e-fe58ab609930" autoplay loop muted playsinline width="400"></video>
 </p>
 
 ### Effects (`gaussian_effects_editor.py`)
 A sandbox environment for manipulating the raw properties of the Gaussian splats (scales, rotations, spherical harmonics) to achieve various visual effects and distortions natively on the scan.
 <p align="center">
-  <img src="resources/gif/effects.gif" alt="Gaussian Effects Demo" width="400"/>
+  <video src="https://github.com/user-attachments/assets/de7edbc4-f056-4fd2-940b-347cb55b17ce" autoplay loop muted playsinline width="400"></video>
 </p>
 
 ### Mesh and Voxel Converters (`ply_to_mesh.py`, `ply_to_vox.py`)
