@@ -12,14 +12,17 @@ You can download the `.ply` models used in these demos from this [Google Drive f
 The baseline photorealistic viewer. Use this to examine your `.ply` scans in pristine, high-resolution quality with a free-look camera before processing them through the physics engines.
 
 <p align="center">
-  <img src="resources/gif/ply_viewer.gif" alt="ply viewer" width="400"/>
+  <img src="https://github.com/user-attachments/assets/b96b2b1c-9fa9-4fbe-894b-a9828af40cbc" alt="ply viewer" width="400"/>
 </p>
 
 
 ### Material Point Method (Soft Body) Simulator (`physgaussian_mpm_cuda_gui_materials.py`)
 Utilizes a CUDA-accelerated MPM (Material Point Method) solver to simulate complex elastoplastic materials. Turn your 3D scan into jelly, snow, or soft rubber that squishes, bounces, and tears dynamically.
 <p align="center">
-  <img src="resources/gif/mpm_shoe.gif" alt="MPM Soft Body Demo" width="400"/>
+  <img src="resources/gif/mpm_shoe.gif" alt="MPM Soft Body D
+
+
+emo" width="400"/>
   <img src="resources/gif/mpm_pillows.gif" alt="MPM Soft Body Demo" width="400"/>
   <img src="resources/gif/mpm_ficus.gif" alt="MPM Soft Body Demo" width="400"/>
 </p>
